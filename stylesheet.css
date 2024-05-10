@@ -1,0 +1,479 @@
+* {
+  box-sizing:border-box;
+}
+
+a {
+    text-decoration: none;
+  }
+
+body {
+  font-family: Arial, Meiryo, sans-serif;
+  background-color: #f9f4ff;
+  color:#513743;
+}
+
+header {
+    color:white;
+    background-color:  #f9f4ff;
+    position:fixed;
+    width:100%;
+    height:70px;
+    top:0;
+    z-index: 10;
+    text-align:center;
+    padding-left: 0;
+}
+
+.menu-wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color:  #f9f4ff;
+  z-index: 100;
+  width: 300px;
+  height: 500px;
+  text-align: center;
+  display:none;
+  border-radius: 4px;
+}
+
+.menu-logo {
+  float: left;
+  padding-top:5px;
+  padding-left: 10px;
+}
+
+.menu-logo-img {
+  height:60px;
+}
+
+#menu-close {
+  float: right;
+  font-size: 30px;
+  padding: 20px 20px 20px 0;
+  color:white;
+}
+
+.menu {
+  position: absolute;
+  top: 80px;
+  right: 10px;
+  background-color: #f9f4ff;
+  border-radius: 10px;
+  width: 280px;
+  height: auto;
+  text-align: left;
+  padding-left: 10px;
+  
+}
+
+.menu h2{
+  font-size: 18px;
+  color:rgb(128, 70, 70)
+}
+
+
+.menu-link {
+  text-decoration: none;
+  color: black;
+  display:inline-block;
+  width: 200px;
+}
+
+.fa-chevron-right {
+  float: right;
+  color: rgba(58, 88, 94, 0.9);
+}
+
+
+
+li {
+    list-style:none;
+}
+
+.container {
+  max-width:1170px;
+  width:86%;
+  margin:0 auto;
+  background-color:  #f9f4ff;
+}
+
+.container h2{
+  font-size: 32px;
+}
+
+.container h3 {
+  font-size: 24px;
+}
+
+.header-left {
+  float:left;
+}
+
+.banner {
+  padding-left:10px;
+  height: 70px;
+ 
+}
+
+header h2 {
+  width:140px;
+  font-size:24px;
+  background-color:azure;
+  color:lightseagreen;
+  border:2px;
+  border-radius: 4px;
+  padding:0 10px;
+
+}
+
+.header-right {
+  float:right;
+}
+
+
+.header-link{
+    text-decoration: none;  
+    font-size:16px;
+  width:100px;
+  background-color:rgb(106, 142, 166, 0.4);
+  margin-left:15px;
+  color:white;
+  line-height: 70px;
+  display:inline-block;
+}
+
+
+.header-link:hover{
+    background-color: rgba(0, 0, 0, 0.545);
+}
+
+.header-link:active{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 24px;
+  padding: 20px 20px 20px 0;
+  margin-right: 20px;
+  display: none;  
+}
+
+
+.top-wrapper {
+  background-color: #f9f4ff;
+  color:black;
+  margin: 120px 0 50px 0;
+  text-align:center;
+  width:100%;
+}
+
+
+.item {
+  float: left;
+  width: 50%;
+  height: 450px;
+}
+
+.item:hover {
+  opacity:0.7;
+}
+
+.item-icon {
+  position:relative;
+  margin: 0 auto;
+}
+
+.category_icon {
+  width: 350px;
+  height: auto;
+  opacity: 0.7;
+}
+
+.item-icon p {
+  font-size: 20px;
+  width: 100%;
+  position:absolute;
+  top: 40%;
+  color:black;
+  text-shadow:1px 1px 0 #FFF, -1px -1px 0 #FFF,
+              -1px 1px 0 #FFF, 1px -1px 0 #FFF,
+              0px 1px 0 #FFF,  0-1px 0 #FFF,
+              -1px 0 0 #FFF, 1px 0 0 #FFF;
+}
+
+.item-text {
+  margin: 3% auto;
+  width: 80%;
+  font-size: 12px;
+  color: #b3aeb5;
+}
+
+
+
+.top-date{
+  font: size 10px;
+  background-color: deeppink;
+  color:white;
+  border-radius:3px;
+  margin-right:15px;
+}
+
+.clear {
+  clear:both;
+}
+
+#about {
+  background-image: url(img/harinezumibgi.webp);
+  background-size: cover;
+  width:100%;
+  padding-top: 60px;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+.faq-wrapper {
+  background-color:white;
+  width:100%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right:  auto;
+}
+
+.btn {
+  padding: 8px 24px;
+  width: 170px;
+  color: white;
+  display: inline-block;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0px 2px black;
+}
+
+.btn:hover{
+  opacity: 0.7;
+}
+
+.btn:active {
+  position:relative;
+  top:2px;
+  box-shadow: none;
+}
+
+.insta {
+  background-color: #CF2E92;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #1DA1F2;
+}
+
+.fa-brands {
+  margin-right: 5px;
+}
+
+#faq-list {
+  width: 60%;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.faq-list-item {
+  margin:10px;
+  border-bottom:1px solid #ccc;
+  position:relative;
+  cursor:pointer;
+  text-align: left;
+}
+
+.faq-list-item span {
+  position:absolute;
+  top:0;
+  right:5px;
+  color:#ccc;
+  font-size:13px;
+}
+
+.answer {
+  display: none;
+  font-size:12px;
+  margin-bottom: 15px;
+}
+
+
+
+footer {
+  color:white;
+  background-color: #f9f4ff;
+  width:100%;
+  height:70px;
+  text-align: center;
+}
+
+footer h3{
+  font-size:20px;
+}
+
+footer p{
+  font-size:10px;
+  opacity:0.5;
+}
+
+.arrow-up{
+  float:right;
+  position:fixed;
+  bottom:15px;
+  right:5%;
+  z-index:9;
+
+}
+
+.arrow-up a{
+  text-decoration: none;
+}
+
+.arrow-up a:link, .arrow-up a:visited, .arrow-up a:hover, .arrow-up a:active {
+  color: gray;
+}
+
+/* menuページ */
+
+.menu-intro {
+  background-image: url(img/hinarisubgi01.webp);
+  background-size: cover;
+  padding: 30px 0;
+}
+
+.slide-wrapper {
+  width:90%;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.slide-items {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.slide-item {
+  height: 280px;
+  max-width:350px;
+  margin-right:5px;
+  margin-left:5px;
+}
+
+.itemimg {
+  height: 280px;
+  width: auto;
+}
+
+.menuh2 {
+  font-size: 20px;
+  letter-spacing: 20px;
+}
+
+.menuh3 {
+  font-size: 15px;
+  letter-spacing: 5px;
+}
+
+.menup {
+  font-size: 11px;
+}
+
+.slider-img img {
+  height: auto;
+  width: 100%;
+}
+
+.slide-arrow {
+  cursor: pointer;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  width: 30px;
+}
+.prev-arrow {
+  left: -5px;
+}
+.next-arrow {
+  right: -40px;
+}
+
+/* menu商品紹介のモーダル */
+
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(227, 223, 223, 0.937);
+  z-index: 0;
+  opacity: 0.6;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: none;
+}
+
+.overlay.open {
+  display: block;
+}
+
+.item-modal {
+  width: 70%;
+  height: 70%;
+  position: fixed;
+  top: 15%;
+  left: 15%;
+  z-index: 200;
+  background-color: #f9f4ff;
+  display:none;
+  border-radius: 4px;
+  text-align: center;
+}
+
+
+.item-modal-img {
+  width: auto;
+  height: 50%;
+}
+
+.item-modal h2 {
+  font-size: 24px;
+}
+
+.item-modal p{
+  font-size: 12px;
+}
+
+.item-modal-close {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+
+.buy {
+  padding: 8px 24px;
+  width: 240px;
+  color: black;
+  display: inline-block;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0px 1px rgba(224, 228, 5, 0.879);
+  background-color: #ffd814;
+}
+
+.open {
+  display: block;
+}
